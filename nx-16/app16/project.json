@@ -67,7 +67,7 @@
     "lint": {
       "executor": "@nx/eslint:lint",
       "options": {
-        "lintFilePatterns": ["{projectRoot}/src"]
+        "lintFilePatterns": ["./src"]
       }
     },
     "test": {
